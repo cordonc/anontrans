@@ -66,7 +66,7 @@
       text-decoration-line: underline;
       font-size: 26px;	
       line-height: 39px;
-      margin-bottom: 0;
+      margin-bottom: .5em;
       font-weight: 700;
       padding: 0px 50px;
       letter-spacing: 0.12em;
@@ -75,15 +75,19 @@
   }
   h2 {
       font-family: 'space mono';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 26px;
-      line-height: 39px;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
       display: flex;
       letter-spacing: 0.12em;
-      text-decoration-line: underline;
-      text-transform: uppercase;
-      color: #FE9595;
+      margin-bottom: .5em;
+      padding: 0px 50px;
+      /* text-decoration-line: underline; */
+      /* text-transform: uppercase; */
+      color:#FE959580;
+
+
 
   }
   h3 {
@@ -105,7 +109,7 @@
       text-align: center;
   }
   
-  #intro h1, #intro h2 {
+  #intro h1 {
       font-family: 'space mono', 'helvetica', 'arial', sans-serif;
       font-weight: 700;
       letter-spacing: 0.12em;
@@ -128,12 +132,12 @@
   }
   
   p.guest {
-      font-size: 16px;
+      font-size: 1em;
       color: #33b138;
   }
   
   p.paul {
-      font-size: 1.04em;
+      font-size: 1em;
       line-height: 1.625em;
       color: #3393B1;
   }
@@ -167,7 +171,7 @@
       text-transform: uppercase;
       font-weight: 700;
       color:#FE9595;
-      opacity: 25%;
+      opacity: 35%;
   }
   
   
@@ -300,7 +304,7 @@
       top: 1rem;
       right: 3rem;
       z-index: 1;
-      position: absolute;
+      position: fixed;
   }
   
   .endNote {
@@ -386,18 +390,18 @@
   /* interviews */
   
   p.paul {
-      text-indent: 60px;
+      text-indent: 30px;
       position: relative;
   }
 
   p.guest {
-      text-indent: 60px;
+      text-indent: 30px;
       position: relative;
   }
   
   .speaker {
       position: relative;
-      left: -60px;
+      left: -30px;
       top: 2px;
   }
   
