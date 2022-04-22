@@ -54,7 +54,7 @@
   }
   
   a:hover {
-      color: white;
+      color: rgb(89, 139, 218);
       text-decoration: none;
       background: rgba(0,0,0,1);
   }
@@ -156,14 +156,14 @@
   }
   
   .endNote {
-      font-family: TRMonoBeta, 'courier', monospace;		
-      font-size: 1.5em;
+      font-family: 'space mono', 'courier', monospace;		
+      font-size: 1.25em;
       line-height: 1.125em;
   }
   
   .pageNum {
       font-family: 'space mono', 'helvetica', 'arial', sans-serif;
-      font-size: 0.5em;
+      font-size: 0.75em;
   }
   .runningHead {
       font-family: 'space mono', 'helvetica', 'arial', san-serif;
@@ -294,10 +294,10 @@
   }
   
   .pageNum {
-      bottom: 1.25rem;
-      left: 1.25rem;
+      bottom: 1rem;
+      left: 3rem;
       z-index: 1;
-      position: absolute;
+      position: fixed;
   }
 
   .runningHead {
@@ -308,8 +308,8 @@
   }
   
   .endNote {
-      text-transform: uppercase;
-      text-align: center;
+      text-transform: lowercase;
+      text-align: right;
       position: absolute;
       width: 100%;
       box-sizing: border-box;
@@ -543,7 +543,7 @@
       scroll-behavior: smooth;
   }
   
-  /*.page:hover {
+  /* .page:hover {
       cursor: e-resize;
   }
   */
