@@ -117,8 +117,9 @@
       text-decoration-line: underline;
       font-size: 26px;
       line-height: 39px;
-      margin-bottom: 0;
+      margin-bottom: .5em;
       padding: 0px 50px;
+      letter-spacing: 0.12em;
       color: #FE9595;
   }
   
@@ -128,16 +129,16 @@
   
   p, ul, #print-all {
       font-family: 'space mono', 'courier', monospace;	
-      margin-bottom: 1.25em;
+      margin-bottom: 1em;
   }
   
   p.guest {
-      font-size: 1em;
+      font-size: .9em;
       color: #33b138;
   }
   
   p.paul {
-      font-size: 1em;
+      font-size: .9em;
       line-height: 1.625em;
       color: #3393B1;
   }
@@ -409,6 +410,7 @@
       position: relative;
       min-height: 100vh;
       min-width: 100vw;
+      
   }
   
   .spread {
@@ -541,6 +543,7 @@
       overflow-x: scroll;	
       overflow-y: hidden;
       scroll-behavior: smooth;
+      scroll-snap-align: start;
   }
   
   /* .page:hover {
