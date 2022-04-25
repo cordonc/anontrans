@@ -91,22 +91,58 @@
 
   }
   h3 {
+      font-family: 'space mono';
       font-size: .8em; 
       font-weight: 400;
       line-height: 21px;
       letter-spacing: 0.12em;
       margin-bottom: 1.5em;
       padding: 0px 50px;
+  }
+
+h4 {
+    font-family: 'space mono';
+    font-style: italic;
+    font-size: .8em; 
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+    margin-bottom: 1.5em;
+    padding: 0px 50px;
+    text-transform: uppercase;
+    text-align: start;
+    
+}
+ h5 {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #FE9595;
+    /* position: relative;  */
+    width: 47%; 
+    margin-left: 50px; 
+    margin-right: 50px;
+    object-position: center;
+
+
+    
+ }
       
 
-  }
+
   
   #cover h1{
       font-size: 5.25em;	
       line-height: 1.1em;	
       margin-bottom: .5em;
-  
+      letter-spacing: 0.12em;
       text-align: center;
+      align-items: center;
+
   }
   
   #intro h1 {
@@ -457,6 +493,7 @@
   .columns img {
       max-height: calc(95vh - 100px);
       width: auto;
+      margin-left: 50px;
   }
   
   sup, sub {
@@ -508,6 +545,13 @@
       position: absolute;
       top: .75em;
         z-index: 0;
+  }
+
+  center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
   
   /* logos */
