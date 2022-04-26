@@ -257,13 +257,13 @@ h4 {
   .blue {
       width: 50%;
       height: 100%;
-      background: blue;
+      background: rgb(255, 255, 255);
   }
   
   .red {
       width: 50%;
       height: 100%;
-      background: red;
+      background: rgb(255, 255, 255);
   }
   
   /* back to top link */
