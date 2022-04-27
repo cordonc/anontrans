@@ -230,13 +230,13 @@ h4 {
   .left-gutter {
       width: 50%;
       height: 100%;
-      box-shadow: 0px 0 27px 0 black;
+      box-shadow: 0px 0 17px 0 black;
   }
   
   .right-gutter {
       width: 50%;
       height: 100%;
-      box-shadow: 0px 0 27px 0 black;
+      box-shadow: 0px 0 17px 0 black;
   }
   
   /* background colors */
@@ -584,7 +584,7 @@ h4 {
   section {
       width: 100vw;
       height:100vh;
-      overflow-x: scroll;	
+      overflow-x: auto;	
       overflow-y: hidden;
       scroll-behavior: smooth;
       scroll-snap-align: start;
