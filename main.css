@@ -37,8 +37,8 @@
       font-family: 'space mono', 'helvetica', 'arial', sans-serif;
       font-style: normal;
       font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 1em;
+      line-height: 1.5em;
       text-align: justify;
   
       /* font-size: 1.125vw;
@@ -63,7 +63,7 @@
   h1, .spread.image h2 {
       font-family: 'space mono', 'helvetica', 'arial';	
       text-transform: uppercase;
-      text-decoration-line: underline;
+      /* text-decoration-line: grammar-error; */
       font-size: 26px;	
       line-height: 39px;
       margin-bottom: .5em;
@@ -95,7 +95,7 @@
       font-style: italic;
       font-size: .8em; 
       font-weight: 400;
-      line-height: 100%;
+      line-height: 125%;
       letter-spacing: 0.12em;
       margin-bottom: 1.5em;
       padding: 0px 50px;
@@ -107,14 +107,15 @@
 h4 {
     font-family: 'space mono';
     font-style: italic;
-    font-size: .8em; 
+    font-size: .7em; 
     font-weight: 400;
-    line-height: 21px;
+    line-height: 1.5em;
     letter-spacing: 0.12em;
-    margin-bottom: 1.5em;
-    padding: 0px 50px;
+    margin-bottom: .5em;
+    padding: 25px 50px;
     text-transform: uppercase;
-    text-align: start;
+    text-align: justify;
+    width: 40%;
     
 }
  h5 {
@@ -127,7 +128,6 @@ h4 {
     /* text-transform: uppercase; */
     color: black;
     /* position: relative;  */
-    width: 50%; 
     margin-left: 50px; 
     margin-right: 50px;
     object-position: center;
@@ -138,12 +138,21 @@ h4 {
     font-style: normal;
     font-weight: 700;
     font-size: 5em;
-    padding: 0px 50px;
     line-height: 100%;
+    margin-bottom: .25em;
+    padding: 0px 50px;
     letter-spacing: 0.11em;
     text-transform: uppercase;
     color:black;
-    text-align: right;
+    text-align: start;
+
+ }
+
+ .soundcite {
+     /* padding: 0px 50px; */
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-bottom: 2%;
 
  }
       
