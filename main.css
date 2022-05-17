@@ -199,9 +199,17 @@ h4 {
   
   p.paul {
       font-size: .9em;
-      line-height: 1.625em;
+      /* line-height: 1.625em; */
       color: #3393B1;
   }
+
+  p.third {
+    font-size: .9em;
+
+    color: #FE9595;
+}
+
+
   
   #cover p, .colophon p, .colophon ul, .speaker, .notes, .footnotes {
       font-family: 'space mono', 'helvetica', 'arial', sans-serif;
